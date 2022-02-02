@@ -32,7 +32,7 @@ console.log(z);
 a=5;
 var num ="";
 
-for(i=1; i<=a; i++){
+for(var i=1; i<=a; i++){
     for(j=5; j>=i; j--){
         num += j;
     }
