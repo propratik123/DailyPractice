@@ -49,49 +49,8 @@ console.log(p);
 
 
 
-/*
-    1 
-    21
-    321       for(j=1; j>=i; j--)
-    4321
-    54321 
-*/
-/*
-var p ="";
-for(i=1; i<=5; i++){
-    for(j=1; j<=i; j++){
-        p += j;
-
-    }
-    console.log(p);
-}
-
-*/
-/*
-    54321
-    5432
-    543
-    54
-    5
-*/
 
 
-
-/*
-a=5;
-var num ="";
-
-for(i=1; i<=a; i++){
-    for(j=5; j>=i; j--){
-        num += j;
-    }
-    
-   
-    num += "\n";
-}
-console.log(num);
-
-*/
 
 
 
