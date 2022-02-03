@@ -14,10 +14,10 @@ Pattern 1:-
 */
 
 var valueToprint = "";
-for(var i = 4; i <= 5; i++) {
+for(var i = 1; i <= 5; i++) {
        
-        for(var j = 1; j <= 4; j++) {
-          valueToprint += i;  //valueToprint= "" + i; i = 4
+        for(var j = 1; j <= i; j++) {
+          valueToprint += i;  //valueToprint= "" + i; i = 2
         }
         valueToprint += "\n";
      }
@@ -53,7 +53,7 @@ var valueToprint = "";
 for(var i = 1; i <= n; i++) //for loop for printing rows
     {
        
-        for(var j = 0;  j < n -i; j++) {
+        for(var j = 0; j < n - i; j++) {
           valueToprint += " ";
         }
           for(var k =1; k <= i; k++) {

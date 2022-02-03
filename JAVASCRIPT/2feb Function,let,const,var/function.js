@@ -10,7 +10,7 @@ New();
 //function - function is collection of blocks use to desighn particular task ,it is only implement 
 //           when we call it.
 
-
+//diffrence between Var, Let and Const
 var c = 10;
 c = 4; //Re-initilisation
 var c = 5; //Re-declaration
